@@ -45,6 +45,10 @@ public Smartphone () {}
         this.contactList = contactList;
     }
 
+    public boolean containsAtLeast3Contacts() {
+    return contact.size () <= 3;
+    }
+
     @Override
     public boolean startRadio() {
         System.out.println("Radio started");
